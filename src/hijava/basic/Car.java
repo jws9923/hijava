@@ -14,7 +14,7 @@ public class Car {
 	public static void main(String[] args) {
 		CarFactory factory = CarFactory.getInstance();
 		
-//		Car car1 = CarFactory.getInstance().createCar("김일수");
+		///Car car1 = CarFactory.getInstance().createCar("김일수");
 		Car car1 = factory.createCar("김일수");
 		Car car2 = factory.createCar("김일수");
 		System.out.println(car1 == car2); //true
